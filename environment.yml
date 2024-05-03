@@ -1,0 +1,29 @@
+name: insightful-routines-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Development dependencies
+  - pip
+  - python=3.10
+  - black=22.3.0
+  - pytest=7.2.0
+  - black[jupyter]=22.3.0
+
+  # Project Dependencies
+  - numpy=1.24.3
+  - pandas=2.0.1
+  - matplotlib=3.7.1
+  - tensorflow-cpu=2.11.1
+  - tensorflow-hub=0.13.0
+  - seaborn=0.12.2
+  - sklearn2pmml=0.81.0
+  - pip:
+    - opencv-python>=4.7.0
+    - ultralytics==8.0.0
+    - optuna
+    - mtcnn
+    - exifread
+    # Pip Dev Dependencies
+    - ipython
+    - ipykernel

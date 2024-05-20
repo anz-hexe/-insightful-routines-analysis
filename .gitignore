@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 insightful_routines_analysis/config.py
+insightful_routines_analysis/acne_detection_results.json
 *.csv
 # Distribution / packaging
 .Python
